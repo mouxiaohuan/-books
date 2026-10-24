@@ -1,0 +1,9 @@
+.reference-card--skeleton { min-height: 210px; }
+.skeleton-avatar, .skeleton-lines > view { background: #e0e5eb; animation: skeleton-pulse 1.2s ease-in-out infinite alternate; }
+.skeleton-avatar { width: 82px; height: 82px; border-radius: 50%; }
+.skeleton-lines { flex: 1; margin-left: 20px; display: flex; flex-direction: column; gap: 12px; }
+.skeleton-lines > view { width: 60%; height: 13px; border-radius: 4px; }
+.skeleton-lines > view:nth-child(2) { width: 90%; }
+.skeleton-lines > view:nth-child(3) { width: 78%; }
+@keyframes skeleton-pulse { to { background: #f3f5f7; } }
+
